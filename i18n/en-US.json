@@ -13,6 +13,22 @@
         "FIELD_3": "Cooldown",
         "FOOTER": "This command has been used {timesRan} times."
       }
+    },
+    "INVITE": {
+      "DESCRIPTION": "Get an invite for the bot.",
+      "EMBED": {
+        "DESCRIPTION": "Click [here]({url}) to invite the bot!"
+      }
+    },
+    "ABOUT": {
+      "DESCRIPTION": "View some general information about the bot.",
+      "EMBED": {
+        "TITLE": "About {username}",
+        "DESCRIPTION": "{username} is a multipurose discord bot made for all servers!\n\n**Links**:\n[Support Server](https://discord.gg/kQUpSgw)\n[Patreon](https://patreon.com/Olykir)\n[Source](https://github.com/LandenStephenss/Sagisawa)"
+      }
+    },
+    "STATUS": {
+        
     }
   },
   "ERRORS": {
