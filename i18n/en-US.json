@@ -1,0 +1,22 @@
+{
+  "COMMANDS": {
+    "HELP": {
+      "DESCRIPTION": "Displays a neat list of the bot's commands.",
+      "EMBED": {
+        "TITLE_1": "{botName}'s Commands",
+        "FOOTER_1": "{guildName}'s prefix is {prefix}"
+      },
+      "SPECIFIC_COMMAND": {
+        "FIELD_0": "Description",
+        "FIELD_1": "Usage",
+        "FIELD_2": "Aliases",
+        "FIELD_3": "Cooldown",
+        "FOOTER": "This command has been used {timesRan} times."
+      }
+    }
+  },
+  "ERRORS": {
+    "BOT_MISSING_PERMS": "I require {perms} permissions.",
+    "USER_MISSING_PERMS": "You require {perms} permissions."
+  }
+}
