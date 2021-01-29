@@ -79,3 +79,20 @@ Sagisawa is a replacement to [xCubed](https://github.com/LandenStephenss/xCubed)
 - Kick,
 - Mute,
 - Settings
+
+
+# Installation
+
+1. Clone the bot by using `git clone https://github.com/sagisawa-org/Sagisawa`
+
+2. Create a `config.json` file, this file should contain the following
+```json
+{
+    "token": "YOUR_BOTS_TOKEN",
+    "developers": ["YOUR_ID", "OTHER_DEVS_ID", "IF_YOU_HAVE_ONE"],
+    "prefix": "s!",
+    "mongoUrl": "THE_CONNECTION_STRING_TO_MONGODB"
+}
+```
+
+3. You should now be able to start the bot using `npm run start`, unless of course i uploaded bad code. If so just open an issue [here](https://github.com/sagisawa-org/Sagisawa/issues)
