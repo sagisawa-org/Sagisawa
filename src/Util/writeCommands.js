@@ -15,5 +15,3 @@ writeFile(
     logger.info("New commands file generated");
   }
 );
-
-process.exit(0);

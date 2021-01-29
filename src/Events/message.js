@@ -79,7 +79,7 @@ module.exports = class {
           client: this.client,
           message,
           args: Args,
-          i18n: require(`../../i18n/${i18n}.json`),
+          i18n: require(`../../i18n/${i18n}.json`), //.COMMANDS[Command.help.name.toUpperCase()],
         });
 
         if (res) {

@@ -4,38 +4,78 @@ Sagisawa is a replacement to [xCubed](https://github.com/LandenStephenss/xCubed)
 
 # Commands
 
-```markdown
-# Currency
+## Currency
 
-- Balance, Bet, Buy, Daily, Deposit, Inventory, Rich, Shop, Steal, Withdraw
+- Balance,
+- Bet,
+- Buy,
+- Daily,
+- Deposit,
+- Inventory,
+- Rich,
+- Shop,
+- Steal,
+- Withdraw
 
-# Developer
+## Developer
 
-- Disable, Enable, Give, Restart, Update
+- Disable,
+- Enable,
+- Give,
+- Restart,
+- Update
 
-# Fun
+## Fun
 
-- Dankrate, Dick, Howgay, Hug, Kiss, Pat, Slap, Hangman, TicTacToe (ttt), Beautiful, Blur, Brazzers, Gay, Greyscale, Invert, Pixelate, Pokemon, Pornhub, Prison, Ross, Treasure, Triggered, Battlestation, Meme, Clap, Owoify, Ship
+- Dankrate,
+- Dick,
+- Howgay,
+- Hug,
+- Kiss,
+- Pat,
+- Slap,
+- Hangman,
+- TicTacToe (ttt),
+- Beautiful,
+- Blur,
+- Brazzers,
+- Gay,
+- Greyscale,
+- Invert,
+- Pixelate,
+- Pokemon,
+- Pornhub,
+- Prison,
+- Ross,
+- Treasure,
+- Triggered,
+- Battlestation,
+- Meme,
+- Clap,
+- Owoify,
+- Ship
 
-# Information
+## Information
 
 - About (Done),
-- Covid,
 - Help (Done),
 - Invite (Done),
-- Status,
-- Emojis,
-- Roles,
-- Avatar,
+- Status (Done),
+- Emojis (Done),
+- Roles (Done),
+- Avatar (Done),
 - Userinfo,
 - Guildinfo,
 - Ping (Done),
 
-# Levels
+## Levels
 
-- Leaderboard, Level,
+- Leaderboard,
+- Level,
 
-# Moderation
+## Moderation
 
-- Ban, Kick, Mute, Settings
-```
+- Ban,
+- Kick,
+- Mute,
+- Settings

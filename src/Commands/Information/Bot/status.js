@@ -21,39 +21,41 @@ module.exports = class extends (
         },
         fields: [
           {
-            name: "Guilds",
+            name: i18n.COMMANDS.STATUS.EMBED.FIELD_0,
             value: client.guilds.cache.size,
             inline: true,
           },
           {
-            name: "Users",
+            name: i18n.COMMANDS.STATUS.EMBED.FIELD_1,
             value: client.users.cache.size,
             inline: true,
           },
           {
-            name: "Commands Used",
+            name: i18n.COMMANDS.STATUS.EMBED.FIELD_2,
             value: client.commandsRan,
             inline: true,
           },
           {
-            name: "Most Used Command",
+            name: i18n.COMMANDS.STATUS.EMBED.FIELD_3,
             value: client.commands
               .sort((a, b) => b.help.timesUsed - a.help.timesUsed)
               .first().help.name,
             inline: true,
           },
           {
-            name: "Memory Usage",
+            name: i18n.COMMANDS.STATUS.EMBED.FIELD_4,
             value: `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(
               2
             )} MB`,
             inline: true,
           },
           {
-            name: "Uptime",
+            name: i18n.COMMANDS.STATUS.EMBED.FIELD_5,
             value: moment
               .duration(Math.floor(process.uptime() * 1000))
-              .format("D [days], H [hours],m [minutes]"),
+              .format(
+                `D [${i18n.COMMANDS.STATUS.DURATION_FORMAT.D}], H [${i18n.COMMANDS.STATUS.DURATION_FORMAT.H}], m [${i18n.COMMANDS.STATUS.DURATION_FORMAT.M}]`
+              ),
             inline: true,
           },
         ],
