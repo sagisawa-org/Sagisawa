@@ -5,8 +5,8 @@ module.exports = class {
     usage = "{c}", // "{c}" means the command name/prefix, args are added in the command file and then displayed in the help command.
     category = "Miscellaneous",
     timesUsed = 0, // Display the amount of times the command has been used in the help menu, although could be used on the website dashboard for command popularity and deciding which commands should stay and go.
+    whisper = false,
     cooldown = 3000, // Just a cooldown, time is in MS
-    aliases = new Array(),
     botPerms = new Array().concat("SEND_MESSAGES"),
     userPerms = new Array().concat("SEND_MESSAGES"),
     nsfw = false, // Says if the command is NSFW or not, NSFW is handled in the message event. Guilds will have the option to lock nsfw commands to NSFW channels or not.
@@ -22,7 +22,6 @@ module.exports = class {
       timesUsed,
     };
     this.config = {
-      aliases,
       botPerms,
       userPerms,
       args,
@@ -31,6 +30,7 @@ module.exports = class {
       enabled,
       cooldown,
       filePath: null,
+      whisper
     };
   }
 };
